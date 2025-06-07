@@ -2,7 +2,8 @@ import os
 import subprocess
 import time
 
-FOLDER_PATH = "/Users/haitham/Downloads/MyPrintFiles"  # Update to your actual folder
+# Automatically use the directory where this script resides
+FOLDER_PATH = os.path.dirname(os.path.abspath(__file__))
 
 def print_file(filepath):
     ext = os.path.splitext(filepath)[1].lower()
