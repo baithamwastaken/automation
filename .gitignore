@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
+=======
+.DS_Store
+**/.DS_Store 
+>>>>>>> 31ca873 (chore: add .gitignore and remove .DS_Store files)
